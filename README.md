@@ -27,5 +27,5 @@ This will pre-render all the HTML based on the config values & export that to th
 ## Deploy
 
 For deployment, I recommend utilizing [Cloudflare Pages](https://pages.cloudflare.com/).\
-Just register your Cloudflare account, create a new Pages project, upload your out folder (you have to build for production before) and your site is live on a .pages.dev subdomain!\
+Just register your Cloudflare account, create a new Pages project, upload your out folder (you have to [build for production](#build-for-production) before) and your site is live on a .pages.dev subdomain!\
 You can as well link your own custom domain for free.
