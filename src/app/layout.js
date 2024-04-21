@@ -13,6 +13,29 @@ export const metadata = JSON.parse(metadataJSON);
 export default function RootLayout({ children }) {
   return (
       <html lang="en">
+      <head>
+          {/* Theme Agent  */}
+          <script dangerouslySetInnerHTML={{ __html: `
+          (function() {
+            function getInitialTheme() {
+              const storedTheme = localStorage.getItem('theme');
+              return storedTheme ? storedTheme : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            }
+
+            function applyTheme(theme) {
+              const root = document.documentElement;
+              if (theme === 'dark') {
+                root.classList.add('dark');
+              } else {
+                root.classList.remove('dark');
+              }
+            }
+
+            const theme = getInitialTheme();
+            applyTheme(theme);
+          })();
+        `}} />
+      </head>
       <body className={inter.className}>{children}</body>
       </html>
   );
