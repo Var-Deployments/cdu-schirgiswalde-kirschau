@@ -131,4 +131,5 @@ const NavBar = ({instance}) => {
     );
 };
 
+NavBar.displayName = 'NavBar';
 export default NavBar;

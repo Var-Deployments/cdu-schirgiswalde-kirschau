@@ -42,4 +42,5 @@ const Footer = ({instance}) => {
     );
 }
 
+Footer.displayName = "Footer";
 export default Footer;
