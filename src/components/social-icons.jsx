@@ -71,4 +71,6 @@ const SocialIcons = ({socialLinks}) => {
         </div>)
 };
 
+
+SocialIcons.displayName = "SocialIcons";
 export default SocialIcons;

@@ -128,4 +128,8 @@ body {
     @apply w-[1.435rem];
 }
 
+.link-lite {
+    @apply hover:text-gray-600 dark:hover:text-gray-300 text-gray-500 dark:text-gray-400;
+}
+
 /* End Tailwind Custom Classes */
