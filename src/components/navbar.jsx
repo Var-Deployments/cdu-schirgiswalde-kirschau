@@ -79,7 +79,7 @@ const NavBar = ({instance}) => {
                                     {navigation.map((item) => (
                                         <Link key={item.name} href={item.href} legacyBehavior={false}>
                                             <span
-                                                className="text-neutral-800 hover:bg-gray-100 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                                                className="text-neutral-800 hover:bg-gray-200 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-100/10 px-3 py-2 rounded-md text-sm font-medium">
                                                 {item.name}
                                             </span>
                                         </Link>
@@ -93,7 +93,7 @@ const NavBar = ({instance}) => {
                                 </div>)}
                             <div className="-mr-2 flex items-center justify-center sm:hidden z-20 fixed top-4 right-6">
                                 <Disclosure.Button
-                                    className="inline-flex items-center justify-center w-10 h-10 rounded-md text-gray-400 hover:text-white hover:bg-gray-100 dark:hover:bg-gray-100/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                    className="inline-flex items-center justify-center w-10 h-10 rounded-md text-gray-400 hover:text-white hover:bg-gray-200 dark:hover:bg-gray-100/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     {open ? (
                                         <XMarkIcon className="block h-6 w-6 text-gray-600 dark:text-gray-300"
                                                    aria-hidden="true"/>
