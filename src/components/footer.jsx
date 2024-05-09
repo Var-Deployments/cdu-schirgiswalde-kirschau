@@ -19,10 +19,10 @@ const Footer = ({instance, socialLinks}) => {
                 </div>
                 <div
                     className="flex flex-col md:flex-row gap-x-4 justify-center mt-6 md:mt-0 items-center md:items-end">
-                    <Link href="/imprint" className="link-lite">
+                    <Link href="/legal/imprint" className="link-lite">
                         <span className="underline">Impressum</span>
                     </Link>
-                    <Link href="/privacy-policy" className="link-lite">
+                    <Link href="/legal/privacy-policy" className="link-lite">
                         <span className="underline">Datenschutzerklärung</span>
                     </Link>
                 </div>

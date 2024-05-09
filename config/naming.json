@@ -1,3 +1,4 @@
 {
-  "officeName": "{Gemeindename}"
+  "officeName": "{Gemeindename}",
+  "instanceName": "CDU Ortsgruppe {Gemeindename}"
 }

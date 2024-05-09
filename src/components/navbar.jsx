@@ -53,10 +53,10 @@ const NavBar = ({instance}) => {
     };
 
     const navigation = [
-        {name: 'Home', href: '/'},
-        {name: 'About', href: '/about'},
-        {name: 'Services', href: '/services'},
-        {name: 'Contact', href: '/contact'},
+        {name: 'Startseite', href: '/'},
+        {name: 'Kandidaten', href: '#candidates'},
+        {name: 'Wahlprogramm', href: '/services'},
+        {name: 'Kontakt', href: '/contact'},
     ];
 
     return (
@@ -79,7 +79,7 @@ const NavBar = ({instance}) => {
                                     {navigation.map((item) => (
                                         <Link key={item.name} href={item.href} legacyBehavior={false}>
                                             <span
-                                                className="text-neutral-800 hover:bg-gray-200 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-100/10 px-3 py-2 rounded-md text-sm font-medium">
+                                                className="text-neutral-800 hover:bg-gray-700/15 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-100/20 px-3 py-2 rounded-md text-sm font-medium">
                                                 {item.name}
                                             </span>
                                         </Link>

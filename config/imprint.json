@@ -1,0 +1,13 @@
+{
+  "name": "Vorname Nachname",
+  "streetAddress": "Musterstr. 1",
+  "postalCode": "01001",
+  "city": "Musterstadt",
+  "contact": "contact@your.domain",
+  "contentRepresentative": {
+    "name": "Vorname Nachname",
+    "streetAddress": "Musterstr. 2",
+    "postalCode": "01001",
+    "city": "Musterstadt"
+  }
+}
