@@ -55,13 +55,13 @@ const NavBar = ({instance}) => {
     const navigation = [
         {name: 'Startseite', href: '/'},
         {name: 'Kandidaten', href: '#candidates'},
-        {name: 'Wahlprogramm', href: '/services'},
+        {name: 'Neuigkeiten', href: '#news'},
         {name: 'Kontakt', href: '/contact'},
     ];
 
     return (
         <Disclosure as="nav"
-                    className="fixed top-0 left-0 z-50 flex h-16 w-[100vw] items-center justify-center backdrop-blur-lg transition-all duration-300 data-[scrolled=true]:bg-white/80 data-[scrolled=true]:shadow-md dark:data-[scrolled=true]:bg-gray-950/80">
+                    className="fixed top-0 left-0 z-[100] flex h-16 w-[100vw] items-center justify-center backdrop-blur-lg transition-all duration-300 data-[scrolled=true]:bg-white/80 data-[scrolled=true]:shadow-md dark:data-[scrolled=true]:bg-gray-950/80">
             {({open}) => (
                 <div className="w-full md:w-auto">
                     <div className="max-w-7xl sm:w-full mx-2 md:mx-auto px-4 sm:px-2 lg:px-8">

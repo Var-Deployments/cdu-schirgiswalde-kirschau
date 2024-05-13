@@ -1,5 +1,10 @@
 Built with [NextJS](https://nextjs.org), [React](https://react.dev/) & [TailwindCSS](https://tailwindcss.com/).
 
+## Blogs
+
+For the blog section, [Medium](https://medium.com) is integrated.
+To enable the blogs section, enter the blog URL in the `blog.json` config file.
+
 ## Run Locally
 
 To start the development server, simply run:

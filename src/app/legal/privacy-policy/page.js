@@ -19,8 +19,8 @@ const privacyPolicy =
     ), "utf8");
 export default function PrivacyPolicy() {
     return (
-        <main className="flex min-h-screen flex-col items-center base-main">
-            <div className="mt-[10vh] flex items-center justify-center flex-col">
+        <main className="flex min-h-screen flex-col items-center base-main bg-white dark:bg-black text-black dark:text-white">
+            <div className="pt-[10vh] flex items-center justify-center flex-col ">
                 <h1 className="font-bold text-3xl">Datenschutzerklärung</h1>
                 <span>Zuletzt aktualisiert: 26.04.2024</span>
                 <p className="my-8 max-w-[90vw] md:max-w-[70vw]">

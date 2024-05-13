@@ -14,40 +14,27 @@ const socialConfig =
         path.join(process.cwd(), "config/socials.json")
     ), "utf8");
 
-const imprintData =
+const contactConfig =
     JSON.parse(fs.readFileSync(
-        path.join(process.cwd(), "config/imprint.json")
+        path.join(process.cwd(), "config/contact.json")
     ), "utf8");
 
-export default function Imprint() {
+export default function Contact() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between base-main bg-white dark:bg-black text-black dark:text-white">
             <div className="flex flex-grow items-center justify-center flex-col">
                 <div className="flex flex-col">
-                <h1 className="font-bold text-3xl">Impressum</h1>
-                <span className="font-semibold">Angaben gem. §5 TMG</span>
+                <h1 className="font-bold text-3xl">Kontakt</h1>
+                <span className="">Kontaktieren Sie uns gerne!</span>
                 <div className="mt-4 flex flex-col font-light">
-                    <span>{imprintData.name}</span>
-                    <span>{namingConfig.instanceName}</span>
-                    <span>{imprintData.streetAddress}</span>
                     <div className="flex flex-row gap-x-1">
-                        <span>{imprintData.postalCode},</span>
-                        <span>{imprintData.city}</span>
-                    </div>
-                    <span className="font-bold mt-4">Kontakt</span>
-
-                    <div className="flex flex-row gap-x-1">
-                        <span className="">E-Mail: {imprintData.contact}</span>
+                        <span className="">E-Mail: {contactConfig.email}</span>
                     </div>
 
                     <div className="flex flex-col mt-4">
-                        <span className="font-bold">Redaktionell verantwortlich</span>
-                        <span>{imprintData.contentRepresentative.name}</span>
-                        <span>{imprintData.contentRepresentative.streetAddress}</span>
-                        <div className="flex flex-row gap-x-1">
-                            <span>{imprintData.contentRepresentative.postalCode},</span>
-                            <span>{imprintData.contentRepresentative.city}</span>
-                        </div>
+                        <span className="font-bold">Pressekontakt</span>
+                        <span>{contactConfig.press.name}</span>
+                        <span>E-Mail: {contactConfig.press.email}</span>
                     </div>
                     <BackToHome className="transform translate-y-8"></BackToHome>
 
