@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <ShowcasedPeople candidates={candidatesConfig}/>
             <MediumFeed blog={blogConfig} />
-            <Footer instance={namingConfig.officeName} socialLinks={socialConfig}/>
+            <Footer instance={namingConfig.instanceName} socialLinks={socialConfig}/>
         </main>
     );
 }

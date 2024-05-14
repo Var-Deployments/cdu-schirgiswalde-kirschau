@@ -1,4 +1,48 @@
 {
   "title": "Unsere Kandidaten",
-  "subtitle": "Am <b>09.06.2024</b> ist Kommunalwahl. Schenken Sie einem unserer vielseitigen Kandidaten Ihr Vertrauen!"
+  "subtitle": "Am <b>09.06.2024</b> ist Kommunalwahl. Schenken Sie einem unserer vielseitigen Kandidaten Ihr Vertrauen!",
+  "people": [
+    {
+      "firstName": "Vorname",
+      "lastName": "Nachname1",
+      "title": "Beispielberuf A, M. Sc",
+      "img": "/candidates/sample.jpg",
+      "text": "Lorem Ipsum Dolor Si"
+    },
+    {
+      "firstName": "Vorname",
+      "lastName": "Nachname2",
+      "title": "Beispielberuf A, M. Sc",
+      "img": "/candidates/sample.jpg",
+      "text": "Lorem Ipsum Dolor Si"
+    },
+    {
+      "firstName": "Vorname",
+      "lastName": "Nachname3",
+      "title": "Beispielberuf A, M. Sc",
+      "img": "/candidates/sample.jpg",
+      "text": "Lorem Ipsum Dolor Si"
+    },
+    {
+      "firstName": "Vorname",
+      "lastName": "Nachname4",
+      "title": "Beispielberuf A, M. Sc",
+      "img": "/candidates/sample.jpg",
+      "text": "Lorem Ipsum Dolor Si"
+    },
+    {
+      "firstName": "Vorname",
+      "lastName": "Nachname5",
+      "title": "Beispielberuf A, M. Sc",
+      "img": "/candidates/sample.jpg",
+      "text": "Lorem Ipsum Dolor Si"
+    },
+    {
+      "firstName": "Vorname",
+      "lastName": "Nachname6",
+      "title": "Beispielberuf A, M. Sc",
+      "img": "/candidates/sample.jpg",
+      "text": "Lorem Ipsum Dolor Si"
+    }
+  ]
 }
