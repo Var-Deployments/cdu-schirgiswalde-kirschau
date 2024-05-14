@@ -3,7 +3,7 @@ import React from "react";
 
 const PersonRect = ({ config }) => {
     return (
-        <a href={`${config.firstName.toLowerCase()}-${config.lastName.toLowerCase()}`} className="cursor-pointer relative flex items-center justify-center flex-col rounded-lg w-full md:w-64 h-[60vh] md:h-96 bg-neutral-300 dark:bg-neutral-800">
+        <a href={`${config.firstName.toLowerCase()}-${config.lastName.toLowerCase()}`} className="cursor-pointer relative flex items-center justify-center flex-col rounded-lg w-full md:w-64 aspect-[10/16] md:aspect-auto md:h-96 bg-neutral-300 dark:bg-neutral-800">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                  stroke="currentColor" className="absolute dark:text-white/50 text-black/50 top-4 right-4 textw-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
