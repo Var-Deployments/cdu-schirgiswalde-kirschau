@@ -43,7 +43,7 @@ export default function Home({ params }) {
     const data = getStaticData(name);
     return (
         <main
-            className="flex min-h-screen max-w-[100vw] flex-col items-center justify-between p-2 md:p-24 !pb-0 bg-white dark:bg-neutral-950 text-black dark:text-white">
+            className="flex min-h-screen max-w-[100vw] flex-col items-center justify-between p-2 pl-6 pt-6 md:p-24 !pb-0 bg-white dark:bg-neutral-950 text-black dark:text-white">
             <div>
             <h1 className="text-5xl font-bold">{data.firstName} {data.lastName}</h1>
             <h5 className="text-2xl font-semibold text-green-600 mt-2">{data.title}</h5>
