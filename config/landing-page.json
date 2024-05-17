@@ -1,3 +1,4 @@
 {
-  "headlineText": "Gemeinsam für<br/>{Gemeindename}."
+  "headlineText": "Gemeinsam für<br/>{Gemeindename}.",
+  "headerBackgroundSrc": "/img/header_bg.png"
 }

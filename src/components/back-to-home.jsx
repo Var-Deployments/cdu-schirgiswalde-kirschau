@@ -1,7 +1,7 @@
-const BackToHome = ({ className }) => {
+const BackToHome = ({ className, customURL="" }) => {
     return (
         <div className={className + " text-neutral-700 dark:text-neutral-300 text-sm"}>
-            <a href="/" className="flex items-center gap-x-2">
+            <a href={customURL === "" ? "/" : customURL} className="flex items-center gap-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                      stroke="currentColor" className="w-5 h-5">
                     <path strokeLinecap="round" strokeLinejoin="round"

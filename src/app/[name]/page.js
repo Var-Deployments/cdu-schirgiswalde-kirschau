@@ -47,9 +47,9 @@ export default function Home({ params }) {
             <div>
             <h1 className="text-5xl font-bold">{data.firstName} {data.lastName}</h1>
             <h5 className="text-2xl font-semibold text-green-600 mt-2">{data.title}</h5>
-            <img className="my-4" src={data.img} alt={`Portrait von ${data.firstName} ${data.lastName}`}></img>
+            <img className="my-4 max-h-[20vh] md:max-h-[35vh] rounded-lg" src={data.img} alt={`Portrait von ${data.firstName} ${data.lastName}`}></img>
             <p dangerouslySetInnerHTML={{__html: data.text}}></p>
-            <BackToHome className="transform translate-y-8"></BackToHome>
+            <BackToHome customURL={`/#${data.firstName.toLowerCase()}-${data.lastName.toLowerCase()}`} className="transform translate-y-8"></BackToHome>
             </div>
             <Footer instance={namingConfig.instanceName} socialLinks={socialConfig}/>
         </main>
