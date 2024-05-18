@@ -5,7 +5,7 @@ const PersonRect = ({ config }) => {
     return (
         <a href={`${config.firstName.toLowerCase()}-${config.lastName.toLowerCase()}`} className="group overflow-hidden cursor-pointer relative flex items-center justify-center flex-col rounded-lg w-full md:w-64 aspect-[10/16] md:aspect-auto md:h-96">
             <div id={`${config.firstName.toLowerCase()}-${config.lastName.toLowerCase()}`} className="h-full absolute top-0 left-0 transform -translate-y-[35%]"></div>
-            <div className="rounded-lg z-30 group-hover:bg-black/30 transition duration-300 absolute bg-black/20 p-2 top-8 right-8 md:top-4 md:right-4 ">
+            <div className="rounded-lg z-30 group-hover:bg-black/30 transition duration-300 absolute bg-black/20 p-2 top-4 right-4 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                  stroke="currentColor" className="text-white  w-9 h-9 md:w-6 md:h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"

@@ -48,7 +48,26 @@ export default function Home({ params }) {
             <h1 className="text-5xl font-bold">{data.firstName} {data.lastName}</h1>
             <h5 className="text-2xl font-semibold text-green-600 mt-2">{data.title}</h5>
             <img className="my-4 max-h-[20vh] md:max-h-[35vh] rounded-lg" src={data.img} alt={`Portrait von ${data.firstName} ${data.lastName}`}></img>
-            <p dangerouslySetInnerHTML={{__html: data.text}}></p>
+                {
+                    data.bulletpoints.length > 0 ? (
+                        <div className="flex flex-col mb-4">
+                        <h2 className="text-xl font-bold mb-1">{candidatesConfig.bulletTitle}</h2>
+                        <ul className="list-disc pl-6">
+                            {data.bulletpoints.map((point, index) => (
+                                <li key={index} className="text-lg">{point}</li>
+                            ))}
+                        </ul>
+                        </div>
+                    ) : null
+                }
+                {
+                    data.text !== "" ? (
+                        <div>
+                            <h2 className="text-xl font-bold mb-1">{candidatesConfig.textTitle}</h2>
+                            <p dangerouslySetInnerHTML={{__html: data.text}}></p>
+                        </div>
+                    ) : null
+                }
             <BackToHome customURL={`/#${data.firstName.toLowerCase()}-${data.lastName.toLowerCase()}`} className="transform translate-y-8"></BackToHome>
             </div>
             <Footer instance={namingConfig.instanceName} socialLinks={socialConfig}/>

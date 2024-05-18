@@ -1,12 +1,19 @@
 {
   "title": "Unsere Kandidaten",
   "subtitle": "Am <b>09.06.2024</b> ist Kommunalwahl. Schenken Sie einem unserer vielseitigen Kandidaten Ihr Vertrauen!",
+  "bulletTitle": "Zusammenfassung Inhalte",
+  "textTitle": "Vita",
   "people": [
     {
       "firstName": "Vorname",
       "lastName": "Nachname1",
       "title": "Beispielberuf A, M. Sc",
       "img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bulletpoints": [
+        "Inhalt 1",
+        "Inhalt 2",
+        "Inhalt 3"
+      ],
       "text": "Lorem Ipsum Dolor Si"
     },
     {
@@ -14,6 +21,11 @@
       "lastName": "Nachname2",
       "title": "Beispielberuf A, M. Sc",
       "img": "/img/candidate-samples/joshua-rawson-harris-dN67hPE5KWY-unsplash.jpg",
+      "bulletpoints": [
+        "Inhalt 1",
+        "Inhalt 2",
+        "Inhalt 3"
+      ],
       "text": "Lorem Ipsum Dolor Si"
     },
     {
@@ -21,6 +33,11 @@
       "lastName": "Nachname3",
       "title": "Beispielberuf A, M. Sc",
       "img": "https://images.unsplash.com/photo-1596075780750-81249df16d19?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "bulletpoints": [
+        "Inhalt 1",
+        "Inhalt 2",
+        "Inhalt 3"
+      ],
       "text": "Lorem Ipsum Dolor Si"
     },
     {
@@ -28,6 +45,11 @@
       "lastName": "Nachname4",
       "title": "Beispielberuf A, M. Sc",
       "img": "/img/candidate-samples/christopher-lemercier-L6ygXKgFjIQ-unsplash.jpg",
+      "bulletpoints": [
+        "Inhalt 1",
+        "Inhalt 2",
+        "Inhalt 3"
+      ],
       "text": "Lorem Ipsum Dolor Si"
     },
     {
@@ -35,6 +57,11 @@
       "lastName": "Nachname5",
       "title": "Beispielberuf A, M. Sc",
       "img": "/img/candidate-samples/sofia-mQtcrK22CN8-unsplash.jpg",
+      "bulletpoints": [
+        "Inhalt 1",
+        "Inhalt 2",
+        "Inhalt 3"
+      ],
       "text": "Lorem Ipsum Dolor Si"
     },
     {
@@ -42,6 +69,11 @@
       "lastName": "Nachname6",
       "title": "Beispielberuf A, M. Sc",
       "img": "/img/candidate-samples/henri-pham-3LsBsIRjlbw-unsplash.jpg",
+      "bulletpoints": [
+        "Inhalt 1",
+        "Inhalt 2",
+        "Inhalt 3"
+      ],
       "text": "Lorem Ipsum Dolor Si"
     }
   ]
