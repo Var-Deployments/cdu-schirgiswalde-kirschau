@@ -1,14 +1,15 @@
 import React from "react";
+import {generatePathSegment} from "@/app/util";
 
-
-const PersonRect = ({ config }) => {
+const PersonRect = ({ config}) => {
+    const safeName = `${generatePathSegment(config.firstName.toLowerCase())}-${generatePathSegment(config.lastName.toLowerCase())}`;
     return (
-        <a href={`${config.firstName.toLowerCase()}-${config.lastName.toLowerCase()}`} className="group overflow-hidden cursor-pointer relative flex items-center justify-center flex-col rounded-lg w-full md:w-64 aspect-[10/16] md:aspect-auto md:h-96">
-            <div id={`${config.firstName.toLowerCase()}-${config.lastName.toLowerCase()}`} className="h-full absolute top-0 left-0 transform -translate-y-[35%]"></div>
+        <a key={safeName} href={safeName} className="group overflow-hidden cursor-pointer relative flex items-center justify-center flex-col rounded-lg w-full md:w-64 aspect-[10/16] md:aspect-auto md:h-96">
+            <div id={safeName} className="h-full absolute top-0 left-0 transform -translate-y-[35%]"></div>
             <div className="rounded-lg z-30 group-hover:bg-black/30 transition duration-300 absolute bg-black/20 p-2 top-4 right-4 ">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                  stroke="currentColor" className="text-white  w-9 h-9 md:w-6 md:h-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
+                <path strokeLinecap="round" strokeLinejoin="round"
                       d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/>
             </svg>
             </div>

@@ -3,6 +3,7 @@ import path from "path";
 import Image from "next/image";
 import Footer from "@/components/footer";
 import BackToHome from "@/components/back-to-home";
+import {restorePathSegment, generatePathSegment} from "@/app/util";
 
 const candidatesConfig =
     JSON.parse(fs.readFileSync(
@@ -19,18 +20,25 @@ const socialConfig =
         path.join(process.cwd(), "config/socials.json")
     ), "utf8");
 
+const nameMapping = candidatesConfig.people.reduce((acc, candidate) => {
+    const key = generatePathSegment(`${candidate.firstName.toLowerCase()}-${candidate.lastName.toLowerCase()}`);
+    acc[key] = `${candidate.firstName}-${candidate.lastName}`;
+    return acc;
+}, {});
+
 export const generateStaticParams = async () => {
     return candidatesConfig.people.map(person => ({
-            name: `${person.firstName.toLowerCase()}-${person.lastName.toLowerCase()}`
+        name: generatePathSegment(`${person.firstName.toLowerCase()}-${person.lastName.toLowerCase()}`)
     }));
 };
 
 export function getStaticData(name) {
-    const [firstName, lastName] = name.split('-');
+    const restoredName = nameMapping[name];
+    const [firstName, lastName] = restoredName.split('-');
 
     for (let i = 0; i < candidatesConfig.people.length; i++) {
         const person = candidatesConfig.people[i];
-        if (person.firstName.toLowerCase() === firstName && person.lastName.toLowerCase() === lastName) {
+        if (person.firstName.toLowerCase() === firstName.toLowerCase() && person.lastName.toLowerCase() === lastName.toLowerCase()) {
             return person;
         }
     }
@@ -41,6 +49,7 @@ export function getStaticData(name) {
 export default function Home({ params }) {
     const {name} = params;
     const data = getStaticData(name);
+    console.log(data);
     return (
         <main
             className="flex min-h-screen max-w-[100vw] flex-col items-center justify-between p-2 pl-6 pt-6 md:p-24 !pb-0 bg-white dark:bg-neutral-950 text-black dark:text-white">
@@ -68,7 +77,7 @@ export default function Home({ params }) {
                         </div>
                     ) : null
                 }
-            <BackToHome customURL={`/#${data.firstName.toLowerCase()}-${data.lastName.toLowerCase()}`} className="transform translate-y-8"></BackToHome>
+            <BackToHome customURL={`/#${generatePathSegment(data.firstName.toLowerCase())}-${generatePathSegment(data.lastName.toLowerCase())}`} className="transform translate-y-8"></BackToHome>
             </div>
             <Footer instance={namingConfig.instanceName} socialLinks={socialConfig}/>
         </main>
