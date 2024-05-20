@@ -35,8 +35,9 @@ export default function RootLayout({ children }) {
             applyTheme(theme);
           })();
         `}} />
+
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className + " overflow-x-hidden"}>{children}</body>
       </html>
   );
 }

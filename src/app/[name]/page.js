@@ -77,7 +77,7 @@ export default function Home({ params }) {
                     ) : null
                 }
                 <div className="flex justify-center mt-7 md:mt-5">
-                <BackToHome linkClassName={"bg-opacity-5 hover:bg-opacity-10 transition duration-300 px-4 py-2 bg-black dark:bg-white rounded-lg"} customText={"Zurück"} customURL={`/#${generatePathSegment(data.firstName.toLowerCase())}-${generatePathSegment(data.lastName.toLowerCase())}`} className="inline-block"></BackToHome>
+                <BackToHome linkClassName={"transition duration-300 px-4 py-2 bg-black dark:bg-white rounded-lg !bg-opacity-5 hover:!bg-opacity-10"} customText={"Zurück"} customURL={`/#${generatePathSegment(data.firstName.toLowerCase())}-${generatePathSegment(data.lastName.toLowerCase())}`} className="inline-block"></BackToHome>
                 </div>
                 </div>
             <Footer instance={namingConfig.instanceName} socialLinks={socialConfig}/>

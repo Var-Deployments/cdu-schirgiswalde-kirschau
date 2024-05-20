@@ -137,3 +137,33 @@ body {
 }
 
 /* End Tailwind Custom Classes */
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.42rem;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #949494;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fafafa;
+}
+
+
+.dark ::-webkit-scrollbar-thumb {
+    background-color: #737373;
+    border-radius: 10px;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #262626;
+}
+
+
+
+/* End Scrollbar */
