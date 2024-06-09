@@ -1,13 +1,13 @@
 {
-  "name": "Vorname Nachname",
-  "streetAddress": "Musterstr. 1",
-  "postalCode": "01001",
-  "city": "Musterstadt",
-  "contact": "contact@your.domain",
+  "name": "Elia Hilse",
+  "streetAddress": "Hauptstr. 14",
+  "postalCode": "01904",
+  "city": "Neukirch/Lausitz",
+  "contact": "imprint@elia.vc",
   "contentRepresentative": {
-    "name": "Vorname Nachname",
-    "streetAddress": "Musterstr. 2",
-    "postalCode": "01001",
-    "city": "Musterstadt"
+    "name": "Elia Hilse",
+    "streetAddress": "Haupststr. 14",
+    "postalCode": "01904",
+    "city": "Neukirch/Lausitz"
   }
 }

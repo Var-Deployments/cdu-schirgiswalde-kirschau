@@ -9,7 +9,7 @@
       "firstName": "Marcel",
       "lastName": "Groeschel",
       "title": "Bankkaufmann",
-      "img": "",
+      "img": "/img/candidate-samples/marcel-groeschel.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -18,7 +18,7 @@
       "firstName": "Nicole",
       "lastName": "Wagner",
       "title": "Sachbearbeiterin",
-      "img": "",
+      "img": "/img/candidate-samples/nicole-wagner.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -27,7 +27,7 @@
       "firstName": "Sebastian",
       "lastName": "Steglich",
       "title": "Unternehmer",
-      "img": "",
+      "img": "/img/candidate-samples/sebastian-steglich.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -36,7 +36,7 @@
       "firstName": "Patric",
       "lastName": "Jung",
       "title": "Geschäftsführer",
-      "img": "",
+      "img": "/img/candidate-samples/patric-jung.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -45,7 +45,7 @@
       "firstName": "Jens",
       "lastName": "Walther",
       "title": "Rettungssanitäter",
-      "img": "",
+      "img": "/img/candidate-samples/jens-walther.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -54,20 +54,19 @@
       "firstName": "Dirk",
       "lastName": "Auerbach",
       "title": "Software-Entwickler",
-      "img": "",
+      "img": "/img/candidate-samples/dirk-auerbach.jpg",
       "bulletpoints": [
         "Weiterhin dafür Einsetzen, dass die Belange der Bürgerinnen und Bürger auf der Stadt Gehör finden.",
         "Verbesserung der Lebensqualität für meine Mitbürger",
-        "Förderung der Vereine und der Erhalt unserer ansässigen Firmen",
-        ""
+        "Förderung der Vereine und der Erhalt unserer ansässigen Firmen"
       ],
-      "text": "Ortschaftsrat Schirgiswalde"
+      "text": ""
     },
     {
       "firstName": "Steffen",
       "lastName": "Michalak",
       "title": "Unternehmer",
-      "img": "",
+      "img": "/img/candidate-samples/steffen-michalak.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -76,25 +75,24 @@
       "firstName": "Steffen",
       "lastName": "Voß",
       "title": "Sachbearbeiter",
-      "img": "",
+      "img": "/img/candidate-samples/steffen-voss.jpg",
       "bulletpoints": [
-        "Für den Ortschaftsrat kandidiere ich zum zweiten Mal.",
-        "Schon in der letzten Legislaturperiode habe ich mich dafür eingesetzt, dass der Ortsteil Crostau an Attraktivität und Sicherheit dazu gewinnt. So konnte in mehreren Stellen Verkehrspiegel installiert werden, die die Sicherheit deutlich verbesserten. Die Förderung und Entstehung von Vereinen und Festen war ebenfalls ein zentraler Wirkungspunkt, z.B. durch das Rad der Zeit, dem jährlichen Weihnachtsmarkt dem Feuerwehrfest sowie dem Maibaumwerfen.",
-        "Geburtsjahr 1980"
+        "Weiterhin Gewinn an Attraktivität und Sicherheit des Ortsteil Crostau, bis jetzt z.B. Verkehrspiegel an mehreren Stellen als Sicherheitsgewinn",
+        "Weiterhin Förderung und Entstehung von Vereinen und Festen, z.B. durch das Rad der Zeit, dem jährlichen Weihnachtsmarkt dem Feuerwehrfest sowie dem Maibaumwerfen"
       ],
-      "text": "Stadtrat Schirgiswalde und Ortschaftsrat Schirgiswalde"
+      "text": "44 Jahre<br>Ortschaftsrat"
     },
     {
       "firstName": "Rene",
       "lastName": "Ambrosious",
       "title": "Unternehmer",
-      "img": "/img/candidate-samples/henri-pham-3LsBsIRjlbw-unsplash.jpg",
+      "img": "/img/candidate-samples/rene-ambrosious.jpg",
       "bulletpoints": [
-        "Erhöhung der Verkehrssicherheit vor der Schule, Schulwege und der Waldstraße,",
-        "Unterstützung bei der Belebung des Ortszentrums,",
-        "Erhöhung und Unterstützung der öffentlichen Wertschätzung der ehrenamtlichen Initiativen und Vereine,",
-        "Ideenfindung um unsere Stadt attraktiver für Kinder, Jugendliche und junge Familien zu gestalten.",
-        "Geburtsjahr 1977"
+        "Erhöhung der Verkehrssicherheit vor der Schule, Schulwege und der Waldstraße",
+        "Unterstützung bei der Belebung des Ortszentrums",
+        "Erhöhung und Unterstützung der öffentlichen Wertschätzung der ehrenamtlichen Initiativen und Vereine",
+        "Ideenfindung um unsere Stadt attraktiver für Kinder, Jugendliche und junge Familien zu gestalten",
+        ""
       ],
       "text": ""
     },
@@ -102,7 +100,7 @@
       "firstName": "Thomas",
       "lastName": "Prescher",
       "title": "Beamter",
-      "img": "",
+      "img": "/img/candidate-samples/thomas-prescher.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -111,17 +109,16 @@
       "firstName": "Veit",
       "lastName": "Jungnitsch",
       "title": "Sachbearbeiter",
-      "img": "",
+      "img": "/img/candidate-samples/veit-jungnitsch.jpg",
       "bulletpoints": [
-        "Geburtsjahr 1966"
       ],
-      "text": "StadtrSat & Ortschaftsrat Kirschau"
+      "text": "58 Jahre"
     },
     {
       "firstName": "Andreas",
       "lastName": "Fröde",
       "title": "Kommunalwirt",
-      "img": "",
+      "img": "/img/candidate-samples/andreas-froede.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -130,7 +127,7 @@
       "firstName": "Michael",
       "lastName": "Kretschmer",
       "title": "Testmanager",
-      "img": "/img/michael-kretschmer.jpg",
+      "img": "/img/candidate-samples/michael-kretschmer.jpg",
       "bulletpoints": [
       ],
       "text": ""
@@ -139,13 +136,21 @@
       "firstName": "Michael",
       "lastName": "Pützschel",
       "title": "Oberbauleiter",
-      "img": "",
+      "img": "/img/candidate-samples/michael-puetzschel.jpg",
       "bulletpoints": [
-        "Ich kandidiere für den Ortschaftsrat, um positiven Einfluss nehmen zu können auf die Entwicklungen in unserer Stadt, sowie die Förderung und bessere Zusammenarbeit der Vereine in Schirgiswalde.",
-        "Geburtsjahr 1975",
-        ""
+        "positiver Einfluss auf die Entwicklungen in unserer Stadt",
+        "Förderung und bessere Zusammenarbeit der Vereine in Schirgiswalde"
       ],
-      "text": "Stadtrat Schirgiswalde und Ortschaftsrat Schirgiswalde"
+      "text": "49 Jahre"
+    },
+    {
+      "firstName": "Sebastian",
+      "lastName": "Poitz",
+      "title": "Unternehmer",
+      "img": "/img/candidate-samples/sebastian-poitz.jpg",
+      "bulletpoints": [
+      ],
+      "text": ""
     }
   ]
 }
