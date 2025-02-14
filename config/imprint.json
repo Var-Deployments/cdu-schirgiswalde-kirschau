@@ -1,13 +1,15 @@
 {
   "name": "Elia Hilse",
-  "streetAddress": "Hauptstr. 14",
-  "postalCode": "01904",
-  "city": "Neukirch/Lausitz",
+  "streetAddress": "c/o IP-Management #4175",
+  "streetAddressLine2": "Ludwig-Erhard-Str. 18",
+  "postalCode": "20459",
+  "city": "Hamburg",
   "contact": "imprint@elia.vc",
   "contentRepresentative": {
     "name": "Elia Hilse",
-    "streetAddress": "Haupststr. 14",
-    "postalCode": "01904",
-    "city": "Neukirch/Lausitz"
+    "streetAddress": "c/o IP-Management #4175",
+    "streetAddressLine2": "Ludwig-Erhard-Str. 18",
+    "postalCode": "20459",
+    "city": "Hamburg"
   }
 }
